@@ -4,6 +4,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
+    "start:backend:docker": "ts-node ./backend/index.ts",
     "start:backend": "ts-node -r dotenv/config ./src/index.ts dotenv_config_path=./.env"
   },
   "keywords": [],
